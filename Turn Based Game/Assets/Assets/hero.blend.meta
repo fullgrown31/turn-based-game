@@ -1,0 +1,164 @@
+fileFormatVersion: 2
+guid: 51aa7c9a463615b4f9c9c697696f0c65
+timeCreated: 1514283646
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: chest
+    100002: fingerEnd_l
+    100004: fingerEnd_r
+    100006: fingerStart_l
+    100008: fingerStart_r
+    100010: foot_l
+    100012: foot_r
+    100014: footIK_l
+    100016: footIK_r
+    100018: forearm_l
+    100020: forearm_r
+    100022: head
+    100024: hero
+    100026: //RootNode
+    100028: heroArmature
+    100030: hip
+    100032: kneeIK_l
+    100034: kneeIK_r
+    100036: neck
+    100038: palm_l
+    100040: palm_r
+    100042: palmIK_l
+    100044: palmIK_r
+    100046: shin_l
+    100048: shin_r
+    100050: shoulder_l
+    100052: shoulder_l_001
+    100054: shoulder_r
+    100056: shoulder_r_001
+    100058: spine
+    100060: thigh_l
+    100062: thigh_r
+    100064: thumb_l
+    100066: thumb_r
+    100068: thumbEnd_l
+    100070: thumbEnd_r
+    100072: wand
+    400000: chest
+    400002: fingerEnd_l
+    400004: fingerEnd_r
+    400006: fingerStart_l
+    400008: fingerStart_r
+    400010: foot_l
+    400012: foot_r
+    400014: footIK_l
+    400016: footIK_r
+    400018: forearm_l
+    400020: forearm_r
+    400022: head
+    400024: //RootNode
+    400026: hero
+    400028: heroArmature
+    400030: hip
+    400032: kneeIK_l
+    400034: kneeIK_r
+    400036: neck
+    400038: palm_l
+    400040: palm_r
+    400042: palmIK_l
+    400044: palmIK_r
+    400046: shin_l
+    400048: shin_r
+    400050: shoulder_l
+    400052: shoulder_l_001
+    400054: shoulder_r
+    400056: shoulder_r_001
+    400058: spine
+    400060: thigh_l
+    400062: thigh_r
+    400064: thumb_l
+    400066: thumb_r
+    400068: thumbEnd_l
+    400070: thumbEnd_r
+    400072: wand
+    4300000: wand
+    4300002: hero
+    7400000: Default Take
+    7400002: battlePose
+    7400004: castingSpell
+    7400006: guard
+    7400008: Idle
+    7400010: run
+    7400012: sprint
+    7400014: walk
+    9500000: //RootNode
+    13700000: hero
+    13700002: wand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

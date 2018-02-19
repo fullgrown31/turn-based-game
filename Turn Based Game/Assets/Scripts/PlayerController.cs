@@ -9,7 +9,9 @@ public class PlayerController : MonoBehaviour {
 
     Vector3 forward, right;
 
-	void Start () {
+    public Animator anim;
+
+    void Start () {
         forward = Camera.main.transform.forward;
         forward.y = 0;
         forward = Vector3.Normalize(forward);
@@ -18,9 +20,25 @@ public class PlayerController : MonoBehaviour {
 
 
 	void Update () {
-        if (Input.anyKey)
+        if (Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {
-            Move();
+            if (Input.GetKey(KeyCode.LeftShift))
+            {
+                anim.SetBool("isRunning", true);
+                moveSpeed = 7f;
+            }
+            else
+            {
+                anim.SetBool("isRunning", false);
+                moveSpeed = 4f;
+            }
+            anim.SetBool("isWalking", true);
+            Move();   
+        }
+        else
+        {
+            anim.SetBool("isWalking", false);
+            anim.SetBool("isRunning", false);
         }
     }
 
